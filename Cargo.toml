@@ -1,0 +1,12 @@
+[package]
+name = "baidu-query"
+version = "0.1.0"
+authors = ["Voyage65535 <voyage65535@163.com>"]
+
+[dependencies]
+log = "0.4.1"
+env_logger = "0.5.6"
+serde_json = "1.0.13"
+rust-crypto = "0.2.36"
+reqwest = "0.8.5"
+http-muncher = "0.3"
