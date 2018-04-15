@@ -33,7 +33,7 @@ fn main() {
         if errcode == "0" || errcode == "130020" {
             write!(omitted, "{}\n", phone).unwrap();
         }
-        if errcode == "400005" {
+        if errcode == "400001" || errcode == "400005" {
             write!(result, "{}\t{}\n", phone, &json["errInfo"]["username"]).unwrap();
         }
     }
